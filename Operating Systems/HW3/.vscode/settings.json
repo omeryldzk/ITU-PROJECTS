@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "getopt_core.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/aarch64-linux-gnu-g++"
+}
