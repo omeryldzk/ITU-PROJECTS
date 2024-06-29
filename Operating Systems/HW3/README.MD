@@ -68,15 +68,20 @@ When a worker thread wakes, it handles the request for the file with the last mo
 ### Running the Webserver ▶️
 
 Your C program should be invoked as follows:
+```
 prompt> server [portnum] [threads] [buffers] [schedalg(extra)]
+```
 The command line arguments to your web server are to be interpreted as follows.
-• portnum: the port number that the web server should listen on; the basic web server already handles this argument.
-• threads: the number of worker threads that should be created within the web server. Must be a positive integer.
-• buffers: the number of request connections that can be accepted at one time. Must be a positive integer. Note that it is not an error for more or less threads to be created than buffers.
-• schedalg: the scheduling algorithm to be performed. Must be one of FIFO, RFF, or SFF.
+- **portnum**: the port number that the web server should listen on; the basic web server already handles this argument.
+- **threads**: the number of worker threads that should be created within the web server. Must be a positive integer.
+- **buffers**: the number of request connections that can be accepted at one time. Must be a positive integer. Note that it is not an error for more or less threads to be created than buffers.
+- **schedalg**: the scheduling algorithm to be performed. Must be one of FIFO, RFF, or SFF.
 For example, if you run your program as:
-server 5003 8 16 RFF
+```
+prompt> server 5003 8 16 RFF
+```
 then your web server will listen to port 5003, create 8 worker threads for handling http requests, allocate 16 buffers for connections that are currently in progress (or waiting), and use SFF scheduling for arriving requests.
+
 
 ### Running the client ⏩
 
