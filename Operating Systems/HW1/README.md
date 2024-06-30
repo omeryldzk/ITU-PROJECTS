@@ -65,13 +65,13 @@ cd BasicShell
 
 # Compile the code
 gcc -o shell shell.c
-
+```
 ## Usage
 Provide examples and explanations of how to use the project:
 ```bash
 # Run the compiled program
 ./shell
-
+```
 ## Contact
 For any questions or suggestions, please contact Ömer YILDIZ at yildizom20@itu.edu.tr.
 
