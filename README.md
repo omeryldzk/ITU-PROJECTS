@@ -1,4 +1,4 @@
-# ITU-COURSEPROJECTS
+# ITU-PROJECTS
 This repository has a collection of most of my project files for the classes that I took at Istanbul Technical University 
 | Course Code                                                        | Course Title                          |
 | ------------------------------------------------------------------ | ------------------------------------- |
