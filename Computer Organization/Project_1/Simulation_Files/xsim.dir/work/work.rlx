@@ -1,0 +1,18 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/u_k_s/comporg/project_2/Submission/AddressRegisterFile.v,1712237550,verilog,,,,AddressRegisterFile,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/AddressRegisterFileSimulation.v,1709980323,verilog,,,,AddressRegisterFileSimulation,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/ArithmeticLogicUnit.v,1712243609,verilog,,,,ArithmeticLogicUnit,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/ArithmeticLogicUnitSimulation.v,1709980323,verilog,,,,ArithmeticLogicUnitSimulation,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/ArithmeticLogicUnitSystem.v,1712243863,verilog,,,,ArithmeticLogicUnitSystem;MUX_2TO1;MUX_4TO1,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/ArithmeticLogicUnitSystemSimulation.v,1709980323,verilog,,,,ArithmeticLogicUnitSystemSimulation,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/Helper.v,1711097228,verilog,,,,CrystalOscillator;FileOperation,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/InstructionRegister.v,1712235253,verilog,,,,InstructionRegister,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/InstructionRegisterSimulation.v,1709980323,verilog,,,,InstructionRegisterSimulation,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/Memory.v,1712229530,verilog,,,,Memory,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/Register.v,1712229530,verilog,,,,Register,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/RegisterFile.v,1712237861,verilog,,,,RegisterFile,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/RegisterFileSimulation.v,1709980323,verilog,,,,RegisterFileSimulation,,,,,,,,
+C:/Users/u_k_s/comporg/project_2/Submission/RegisterSimulation.v,1709980323,verilog,,,,RegisterSimulation,,,,,,,,
