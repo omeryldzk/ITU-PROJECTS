@@ -11,8 +11,6 @@ This repository contains the implementation of a custom memory allocation librar
 - [Conclusion](#conclusion)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -63,3 +61,13 @@ cd MyMalloc
 
 # Compile the code
 gcc -o mymalloc mymalloc.c
+```
+## Usage
+Provide examples and explanations of how to use the project:
+```bash
+# Run the compiled program
+./mymalloc
+```
+## Contact
+For any questions or suggestions, please contact Ömer YILDIZ at yildizom20@itu.edu.tr.
+
