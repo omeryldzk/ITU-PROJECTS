@@ -29,7 +29,6 @@ This repository contains the report and associated files for the Computer Organi
 7. [Results](#results)
 8. [Discussion](#discussion)
 9. [Conclusion](#conclusion)
-10. [References](#references)
 
 ## Introduction
 
