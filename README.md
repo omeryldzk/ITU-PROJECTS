@@ -8,3 +8,5 @@ This repository has a collection of most of my project files for the classes tha
 | [BLG222E](./Computer%20Organization/)                              | Computer Organization                 |
 | [BLG252E](https://github.com/omeryldzk/Object-Oriented-Programming)                      | Object Oriented Programming           |
 | [BLG312E](./Operating%20Systems/)                                  | Operating Systems                     |
+| [BLG454E](./Learning%20From%20Data/)                                  | Learning From Data                    |
+
