@@ -1,0 +1,228 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Objects\homework2.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Objects\homework2.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6220000: Last Updated: Tue Dec 31 14:37:19 2024
+<BR><P>
+<H3>Maximum Stack Usage =        128 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+__main &rArr;  __main (Cycle)
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[17]">ft_lstmerge</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[17]">ft_lstmerge</a><BR>
+ <LI><a href="#[18]">ft_lstsort</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[18]">ft_lstsort</a><BR>
+ <LI><a href="#[11]">__main</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[11]">__main</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[2]">HardFault_Handler</a> from startup_armcm0plus.o(.text.HardFault_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[6]">Interrupt0_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[7]">Interrupt1_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[8]">Interrupt2_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[9]">Interrupt3_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[a]">Interrupt4_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[b]">Interrupt5_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[c]">Interrupt6_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[d]">Interrupt7_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[e]">Interrupt8_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[f]">Interrupt9_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_armcm0plus.o(.text.Reset_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup_armcm0plus.o(.text.Default_Handler) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from timing_asm.o(Timing_Code) referenced from startup_armcm0plus.o(RESET)
+ <LI><a href="#[10]">ft_cmp</a> from main.o(.text.ft_cmp) referenced from main.o(.text.myMain)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[14]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, aeabi_sdiv.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Start
+</UL>
+
+<P><STRONG><a name="[21]"></a>__aeabi_uidivmod</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, aeabi_sdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[22]"></a>__aeabi_idiv</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, aeabi_sdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[23]"></a>__aeabi_idivmod</STRONG> (Thumb, 338 bytes, Stack size 8 bytes, aeabi_sdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[24]"></a>Default_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler), UNUSED)
+
+<P><STRONG><a name="[6]"></a>Interrupt0_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>Interrupt1_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>Interrupt2_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>Interrupt3_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>Interrupt4_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>Interrupt5_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>Interrupt6_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>Interrupt7_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>Interrupt8_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>Interrupt9_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Default_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_armcm0plus.o(.text.Reset_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = Reset_Handler &rArr; __main &rArr;  __main (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>SystemInit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, system_armcm0plus.o(.text.SystemInit))
+<BR><BR>[Called By]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+
+<P><STRONG><a name="[13]"></a>Systick_Start</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, timing.o(.text.Systick_Start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Systick_Start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidiv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[1b]"></a>Systick_Stop</STRONG> (Thumb, 24 bytes, Stack size 4 bytes, timing.o(.text.Systick_Stop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = Systick_Stop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[10]"></a>ft_cmp</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, main.o(.text.ft_cmp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ft_cmp
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(.text.myMain)
+</UL>
+<P><STRONG><a name="[16]"></a>ft_lstadd_back</STRONG> (Thumb, 62 bytes, Stack size 12 bytes, utils.o(.text.ft_lstadd_back))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = ft_lstadd_back
+</UL>
+<BR>[Called By]<UL><LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstfill
+</UL>
+
+<P><STRONG><a name="[15]"></a>ft_lstfill</STRONG> (Thumb, 92 bytes, Stack size 32 bytes, utils.o(.text.ft_lstfill))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = ft_lstfill &rArr; ft_lstadd_back
+</UL>
+<BR>[Calls]<UL><LI><a href="#[16]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstadd_back
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[1f]"></a>ft_lstlast</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, utils.o(.text.ft_lstlast))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ft_lstlast
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[17]"></a>ft_lstmerge</STRONG> (Thumb, 116 bytes, Stack size 32 bytes, ft_lstsort.o(.text.ft_lstmerge))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32 + In Cycle
+<LI>Call Chain = ft_lstmerge &rArr;  ft_lstmerge (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstmerge
+</UL>
+<BR>[Called By]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstmerge
+<LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsort
+</UL>
+
+<P><STRONG><a name="[18]"></a>ft_lstsort</STRONG> (Thumb, 84 bytes, Stack size 40 bytes, ft_lstsort.o(.text.ft_lstsort))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72 + In Cycle
+<LI>Call Chain = ft_lstsort &rArr;  ft_lstsort (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstmerge
+<LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsplit
+<LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsort
+</UL>
+<BR>[Called By]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsort
+<LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[19]"></a>ft_lstsplit</STRONG> (Thumb, 116 bytes, Stack size 20 bytes, ft_lstsort.o(.text.ft_lstsplit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = ft_lstsplit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsort
+</UL>
+
+<P><STRONG><a name="[1a]"></a>myMain</STRONG> (Thumb, 140 bytes, Stack size 56 bytes, main.o(.text.myMain))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = myMain &rArr; ft_lstsort &rArr;  ft_lstsort (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstlast_asm
+<LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstlast
+<LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Stop_asm
+<LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsort_asm
+<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Start_asm
+<LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Stop
+<LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstsort
+<LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Start
+<LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ft_lstfill
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[20]"></a>ft_lstlast_asm</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, ft_lstlast_asm.o(LstLast))
+<BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[11]"></a>__main</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, entry.o(Sorting_Algo))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128 + In Cycle
+<LI>Call Chain = __main &rArr;  __main (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+<BR>[Called By]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[1d]"></a>ft_lstsort_asm</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, ft_lstsort_asm.o(Sorting_Code))
+<BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, timing_asm.o(Timing_Code))
+<BR>[Address Reference Count : 1]<UL><LI> startup_armcm0plus.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>Systick_Start_asm</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, timing_asm.o(Timing_Code))
+<BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+
+<P><STRONG><a name="[1e]"></a>Systick_Stop_asm</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, timing_asm.o(Timing_Code))
+<BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myMain
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

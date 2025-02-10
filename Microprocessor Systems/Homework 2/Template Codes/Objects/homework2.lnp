@@ -1,0 +1,15 @@
+--cpu Cortex-M0+
+".\objects\entry.o"
+".\objects\main.o"
+".\objects\utils.o"
+".\objects\ft_lstsort.o"
+".\objects\timing.o"
+".\objects\timing_asm.o"
+".\objects\ft_lstsort_asm.o"
+".\objects\ft_lstlast_asm.o"
+".\objects\startup_armcm0plus.o"
+".\objects\system_armcm0plus.o"
+--strict --scatter ".\RTE\Device\ARMCM0P\ARMCM0plus_ac6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\homework2.map" -o .\Objects\homework2.axf
