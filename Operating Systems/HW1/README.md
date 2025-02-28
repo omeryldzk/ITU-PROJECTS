@@ -58,10 +58,10 @@ Instructions to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/BasicShell.git
+git clone https://github.com/omeryldzk/ITU-PROJECTS
 
 # Navigate to the project directory
-cd BasicShell
+cd HW1
 
 # Compile the code
 gcc -o shell shell.c
