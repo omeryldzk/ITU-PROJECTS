@@ -54,10 +54,10 @@ Instructions to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/MyMalloc.git
+git clone https://github.com/omeryldzk/ITU-PROJECTS
 
 # Navigate to the project directory
-cd MyMalloc
+cd HW2
 
 # Compile the code
 gcc -o mymalloc mymalloc.c
